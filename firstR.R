@@ -14,7 +14,10 @@ nums <- list(1, 2, 6, 4, 5)
 for(num in nums){
   print(num)
 }
-
+nums[1]<-7 #r list is first indexed 
+for(num in nums){
+  print(num)
+}
 helloworld <- function(){
   print("helloworld")
 }
