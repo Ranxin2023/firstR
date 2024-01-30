@@ -34,3 +34,7 @@ factorial <- function(n){
   return(n*factorial(n-1))
 }
 factorial(8)
+
+log(10, 2)
+log(10)
+log(2.71828)
